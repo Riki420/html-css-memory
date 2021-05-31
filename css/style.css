@@ -38,7 +38,7 @@ img{
     background-image: url(../img/pattern.png);
     background-position: center;
     background-repeat: repeat;
-    background-size: auto;
+    background-size: 250px;
     width: 240px;
     border-radius: 10px;
     height: 250px;
@@ -69,6 +69,8 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fff;
+    content: 'Ballon';
+    color: #e67919;
 }
 
 .bycicle:hover{
@@ -77,6 +79,8 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fff;
+    content: 'Bycicle';
+    color: #e67919;
 }
 
 .cruise:hover{
@@ -85,6 +89,8 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fff;
+    content: 'Cruise';
+    color: #e67919;
 }
 
 .submarine:hover{
@@ -93,6 +99,8 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fff;
+    content: 'Submarine';
+    color: #e67919;
 }
 
 .tractor:hover{
@@ -101,6 +109,8 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fff;
+    content: 'Tractor';
+    color: #e67919;
 }
 
 .tram:hover{
@@ -109,4 +119,6 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fff;
+    content: 'Tram';
+    color: #e67919;
 }

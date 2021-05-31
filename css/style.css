@@ -136,6 +136,9 @@ h3:hover{
     color: #e67919;
 }
 
+.card-active .card-on{
+    visibility: visible;
+}
 
 
 

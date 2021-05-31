@@ -50,6 +50,8 @@ img{
     position: relative;
     left: 75px;
     border: 1px solid black;
+    cursor: pointer;
+
 }
 .card-active{
     background-image: url(../img/noun_Tractor_3134797.png);
@@ -65,6 +67,8 @@ img{
     position: relative;
     left: 75px;
     padding: 20px 20px;
+    cursor: pointer;
+
 }
 
 .balloon:hover{
@@ -134,6 +138,7 @@ h3{
     text-align: center;
     line-height: 440px;
     font-size: 32px;
+    cursor: pointer;
 }
 
 

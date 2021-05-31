@@ -108,8 +108,7 @@ img{
     background-position: top;
     background-size: 80%;
     background-repeat: no-repeat;
-    background-color: #fff;
-    
+    background-color:#fff;
 
 }
 
@@ -123,9 +122,6 @@ img{
 
 h3{
     visibility: hidden;
-    /* position: absolute;
-    left: 70px;
-    bottom: 20px; */
     color: #1c691c;
     font-size: 32px;
     text-align: center;

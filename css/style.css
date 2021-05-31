@@ -14,6 +14,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 25px 25px;
 
 }
 
@@ -25,6 +26,8 @@ body{
 
 h1{
     text-align: center;
+    color: #fff;
+    font-size: 64px;
 }
 
 img{
@@ -41,25 +44,25 @@ img{
     background-size: 250px;
     width: 240px;
     border-radius: 10px;
-    height: 250px;
+    height: 270px;
     float: left;
-    margin: 10px 10px;
+    margin: 5px 5px;
     position: relative;
-    left: 70px;
+    left: 75px;
 }
 .card-active{
     background-image: url(../img/noun_Tractor_3134797.png);
     background-color: #fff;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     width: 240px;
     border-radius: 10px;
-    height: 250px;
+    height: 270px;
     float: left;
-    margin: 10px 10px;
+    margin: 5px 5px;
     position: relative;
-    left: 70px;
+    left: 75px;
     padding: 20px 20px;
 }
 
@@ -121,4 +124,11 @@ img{
     background-color: #fff;
     content: 'Tram';
     color: #e67919;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    font-size: 24px;
 }

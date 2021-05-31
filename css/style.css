@@ -128,10 +128,11 @@ img{
 }
 
 h3{
-visibility: hidden;
+    visibility: hidden;
 }
 
 h3:hover{
+    visibility: visible;
     color: #e67919;
 }
 

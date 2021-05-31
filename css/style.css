@@ -6,7 +6,7 @@
 
 body{
     background-color: #add8e6;
-    font-family: 'Sedgwick Ave', sans-serif;
+    font-family: 'Nerko One', cursive;
 }
 
 
@@ -14,8 +14,6 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px black solid;
-    height: 1000px;
 
 }
 
@@ -49,13 +47,28 @@ img{
     position: relative;
     left: 70px;
 }
+.card-active{
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-color: #fff;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    width: 240px;
+    border-radius: 10px;
+    height: 250px;
+    float: left;
+    margin: 10px 10px;
+    position: relative;
+    left: 70px;
+    padding: 20px 20px;
+}
 
 .balloon:hover{
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #fff;
 }
 
 .bycicle:hover{
@@ -63,7 +76,7 @@ img{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #fff;
 }
 
 .cruise:hover{
@@ -71,7 +84,7 @@ img{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #fff;
 }
 
 .submarine:hover{
@@ -79,7 +92,7 @@ img{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #fff;
 }
 
 .tractor:hover{
@@ -87,7 +100,7 @@ img{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #fff;
 }
 
 .tram:hover{
@@ -95,5 +108,5 @@ img{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #fff;
 }

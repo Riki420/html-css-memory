@@ -54,9 +54,9 @@ img{
 .card-active{
     background-image: url(../img/noun_Tractor_3134797.png);
     background-color: #fff;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 80%;
     width: 240px;
     border-radius: 10px;
     height: 270px;
@@ -69,76 +69,83 @@ img{
 
 .balloon:hover{
     background-image: url(../img/noun_air_balloon_3134741.png);
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-color: #fff;
-    content: 'Ballon';
-    color: #e67919;
+
 }
 
 .bycicle:hover{
     background-image: url(../img/noun_Bicycle_3134821.png);
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-color: #fff;
-    content: 'Bycicle';
-    color: #e67919;
+
 }
 
 .cruise:hover{
     background-image: url(../img/noun_Cruise_Ship_3134824.png);
-    background-position: center;
-    background-size: contain;
+    background-size: 80%;
+    background-position: top;
     background-repeat: no-repeat;
     background-color: #fff;
-    content: 'Cruise';
-    color: #e67919;
+
 }
 
 .submarine:hover{
     background-image: url(../img/noun_Submarine_3134738.png);
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-color: #fff;
-    content: 'Submarine';
-    color: #e67919;
+
 }
 
 .tractor:hover{
     background-image: url(../img/noun_Tractor_3134797.png);
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-color: #fff;
-    content: 'Tractor';
-    color: #e67919;
+    
+
 }
 
 .tram:hover{
     background-image: url(../img/noun_Tram_3134750.png);
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-color: #fff;
-    content: 'Tram';
-    color: #e67919;
 }
 
 h3{
     visibility: hidden;
+    /* position: absolute;
+    left: 70px;
+    bottom: 20px; */
+    color: #1c691c;
+    font-size: 32px;
+    text-align: center;
+    line-height: 440px;
 }
 
-h3:hover{
+.card:hover h3{
     visibility: visible;
     color: #e67919;
+    text-align: center;
+    line-height: 440px;
+    font-size: 32px;
 }
+
 
 .card-active .card-on{
     visibility: visible;
 }
+
+
 
 
 

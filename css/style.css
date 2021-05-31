@@ -49,6 +49,7 @@ img{
     margin: 5px 5px;
     position: relative;
     left: 75px;
+    border: 1px solid black;
 }
 .card-active{
     background-image: url(../img/noun_Tractor_3134797.png);
@@ -125,6 +126,23 @@ img{
     content: 'Tram';
     color: #e67919;
 }
+
+h3{
+visibility: hidden;
+}
+
+h3:hover{
+    color: #e67919;
+}
+
+
+
+
+
+
+
+
+
 
 /*Footer*/
 
